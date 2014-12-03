@@ -167,7 +167,7 @@ $GLOBALS['TL_DCA']['tl_monitoring_task'] = array
 	    'createdBy' => array
 	    (
 	        'label'                   => &$GLOBALS['TL_LANG']['tl_monitoring_task']['createdBy'],
-	        'default'                 => $this->User->id,
+	        'default'                 => BackendUser::getInstance()->id,
 	        'filter'                  => true,
 	        'sorting'                 => true,
 	        'flag'                    => 11,
@@ -191,7 +191,7 @@ $GLOBALS['TL_DCA']['tl_monitoring_task'] = array
 	    'updatedBy' => array
 	    (
 	        'label'                   => &$GLOBALS['TL_LANG']['tl_monitoring_task']['updatedBy'],
-	        'default'                 => $this->User->id,
+	        'default'                 => BackendUser::getInstance()->id,
 	        'filter'                  => true,
 	        'sorting'                 => true,
 	        'flag'                    => 11,
@@ -253,7 +253,6 @@ class tl_monitoring_task extends Backend
 	public function __construct()
 	{
 		parent::__construct();
-		$this->import('BackendUser', 'User');
 	}
 
 	/**
@@ -292,7 +291,7 @@ class tl_monitoring_task extends Backend
 
 		$arrSet = array();
 		$arrSet['updatedAt'] = time();
-		$arrSet['updatedBy'] = $this->User->id;
+		$arrSet['updatedBy'] = BackendUser::getInstance()->id;
 
 		if (in_array($dc->activeRecord->status, $GLOBALS['TL_MONITORING']['TASKS']['STATUS']['END_STATES']) && $dc->activeRecord->progress < 100)
 		{
