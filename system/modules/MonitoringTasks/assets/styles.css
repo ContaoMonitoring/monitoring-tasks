@@ -1,0 +1,1 @@
+a.tl_monitoring_tests{ background-image: url('../../Monitoring/assets/tests.png'); } a.tl_monitoring_tasks{ background-image: url('tasks.png'); } img.tl_monitoring_task_status, img.tl_monitoring_task_progress { vertical-align: text-top; } .tl_monitoring_task td { padding-bottom: 3px; } td.col_unfinished_tasks { text-align: center; }
