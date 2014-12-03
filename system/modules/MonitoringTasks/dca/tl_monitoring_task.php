@@ -66,8 +66,8 @@ $GLOBALS['TL_DCA']['tl_monitoring_task'] = array
 		'sorting' => array
 		(
 			'mode'                    => 4,
-			'fields'                  => array('tstamp DESC'),
-			'headerFields'            => array('customer', 'website', 'system', 'url'),
+			'fields'                  => array('updatedAt DESC'),
+			'headerFields'            => $GLOBALS['TL_DCA']['tl_monitoring_test']['list']['sorting']['headerFields'],
 		    'header_callback'         => array('tl_monitoring_test', 'extendHeader'),
 			'child_record_callback'   => array('tl_monitoring_task', 'getTaskLabel'),
 			'panelLayout'             => 'filter;sort,search,limit'
