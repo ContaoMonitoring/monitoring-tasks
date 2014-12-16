@@ -41,7 +41,7 @@ array_insert($GLOBALS['TL_DCA']['tl_monitoring']['list']['operations'], 2, array
 	(
 		'label' => &$GLOBALS['TL_LANG']['tl_monitoring']['tasks'],
 		'href'  => 'table=tl_monitoring_task',
-		'icon'  => 'system/modules/MonitoringTasks/assets/tasks.png'
+		'icon'  => 'system/modules/MonitoringTasks/assets/icon_tasks.png'
 	)
 ));
 

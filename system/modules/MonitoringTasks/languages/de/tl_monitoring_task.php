@@ -78,6 +78,6 @@ $GLOBALS['TL_LANG']['tl_monitoring_task']['new']    = array('Neue Monitoring Auf
 $GLOBALS['TL_LANG']['tl_monitoring_task']['edit']   = array('Monitoring Aufgabe bearbeiten', 'Monitoring Aufgabe mit der ID %s bearbeiten.');
 $GLOBALS['TL_LANG']['tl_monitoring_task']['delete'] = array('Monitoring Aufgabe löschen', 'Monitoring Aufgabe mit der ID %s löschen.');
 $GLOBALS['TL_LANG']['tl_monitoring_task']['show']   = array('Monitoring Aufgabe anzeigen', 'Monitoring Aufgabe mit der ID %s anzeigen.');
-$GLOBALS['TL_LANG']['tl_monitoring_task']['tests']  = array('Monitoring Tests anzeigen', 'Tests zu diesem Monitoring Eintrag anzeigen.');
+$GLOBALS['TL_LANG']['tl_monitoring_task']['tests']  = array('Tests anzeigen', 'Tests zu diesem Monitoring Eintrag anzeigen.');
 
 ?>

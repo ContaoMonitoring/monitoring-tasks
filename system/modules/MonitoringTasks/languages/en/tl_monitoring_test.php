@@ -30,6 +30,6 @@
 /**
  * Buttons
  */
-$GLOBALS['TL_LANG']['tl_monitoring_test']['tasks']  = array('Show monitoring tasks', 'Show the tasks for this monitoring entry.');
+$GLOBALS['TL_LANG']['tl_monitoring_test']['tasks']  = array('Monitoring tasks', 'Show the tasks for this monitoring entry.');
 
 ?>

@@ -79,6 +79,6 @@ $GLOBALS['TL_LANG']['tl_monitoring_test']['edit']   = array('Edit monitoring tas
 $GLOBALS['TL_LANG']['tl_monitoring_test']['delete'] = array('Delete monitoring task', 'Delete the monitoring task with ID %s.');
 $GLOBALS['TL_LANG']['tl_monitoring_test']['show']   = array('Show monitoring task', 'Show infos of monitoring task with ID %s.');
 $GLOBALS['TL_LANG']['tl_monitoring_test']['check']  = array('Check server', 'Tests the availability of the server.');
-$GLOBALS['TL_LANG']['tl_monitoring_task']['tests']  = array('Show monitoring tests', 'Show the tests for this monitoring entrys.');;
+$GLOBALS['TL_LANG']['tl_monitoring_task']['tests']  = array('Monitoring tests', 'Show the tests for this monitoring entrys.');;
 
 ?>
