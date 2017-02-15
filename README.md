@@ -11,8 +11,9 @@ Provides a simplified task management for the [[Contao Monitoring]](https://gith
 Installation
 ------------
 
-The extension is not published in contao extension repository.
-Install it manually or via composer: [contao-monitoring/monitoring-tasks](https://packagist.org/packages/contao-monitoring/monitoring-tasks).
+Install the extension via composer: [contao-monitoring/monitoring-tasks](https://packagist.org/packages/contao-monitoring/monitoring-tasks).
+
+If you prefer to install it manually, download the latest release here: https://github.com/ContaoMonitoring/monitoring-tasks/releases
 
 
 Tracker
@@ -32,4 +33,5 @@ Dependency
 ----------
 
 This extension is dependent on the following extensions:
-[[contao-monitoring/monitoring]](https://packagist.org/packages/contao-monitoring/monitoring)
+
+- [[contao-monitoring/monitoring]](https://packagist.org/packages/contao-monitoring/monitoring)
