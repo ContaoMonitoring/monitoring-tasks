@@ -15,6 +15,8 @@ Install the extension via composer: [contao-monitoring/monitoring-tasks](https:/
 
 If you prefer to install it manually, download the latest release here: https://github.com/ContaoMonitoring/monitoring-tasks/releases
 
+After installation update the database and define Monitoring specific values in the system settings.
+
 
 Tracker
 -------
