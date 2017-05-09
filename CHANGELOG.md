@@ -2,6 +2,10 @@
 Contao Extension "MonitoringTasks"
 ==================================
 
+Version 1.1.0 (2017-05-08)
+--------------------------
+- moved `Contao Mmonitoring` to own backend group
+
 Version 1.0.3 (2016-10-25)
 --------------------------
 - Contao 3.5 ready
