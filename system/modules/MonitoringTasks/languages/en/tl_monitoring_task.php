@@ -75,10 +75,10 @@ $GLOBALS['TL_LANG']['tl_monitoring_task']['progress_values'][100]       = '100 %
  * Buttons
  */
 $GLOBALS['TL_LANG']['tl_monitoring_task']['new']    = array('New monitoring task', 'Create a new monitoring task.');
-$GLOBALS['TL_LANG']['tl_monitoring_test']['edit']   = array('Edit monitoring task', 'Edit the monitoring task with ID %s.');
-$GLOBALS['TL_LANG']['tl_monitoring_test']['delete'] = array('Delete monitoring task', 'Delete the monitoring task with ID %s.');
-$GLOBALS['TL_LANG']['tl_monitoring_test']['show']   = array('Show monitoring task', 'Show infos of monitoring task with ID %s.');
-$GLOBALS['TL_LANG']['tl_monitoring_test']['check']  = array('Check server', 'Tests the availability of the server.');
+$GLOBALS['TL_LANG']['tl_monitoring_task']['edit']   = array('Edit monitoring task', 'Edit the monitoring task with ID %s.');
+$GLOBALS['TL_LANG']['tl_monitoring_task']['delete'] = array('Delete monitoring task', 'Delete the monitoring task with ID %s.');
+$GLOBALS['TL_LANG']['tl_monitoring_task']['show']   = array('Show monitoring task', 'Show infos of monitoring task with ID %s.');
+$GLOBALS['TL_LANG']['tl_monitoring_task']['check']  = array('Check server', 'Tests the availability of the server.');
 $GLOBALS['TL_LANG']['tl_monitoring_task']['tests']  = array('Monitoring tests', 'Show the tests for this monitoring entrys.');;
 
 ?>
