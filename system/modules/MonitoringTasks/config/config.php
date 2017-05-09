@@ -30,7 +30,7 @@
 /**
  * Add to allowed tables of backend module
  */
-$GLOBALS['BE_MOD']['system']['monitoring']['tables'][] = 'tl_monitoring_task';
+$GLOBALS['BE_MOD']['ContaoMonitoring']['monitoring']['tables'][] = 'tl_monitoring_task';
 
 /**
  * Defining allowed states for tasks
