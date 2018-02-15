@@ -2,6 +2,10 @@
 Contao Extension "MonitoringTasks"
 ==================================
 
+Version 1.1.2 (2018-02-15)
+--------------------------
+- replaced `$GLOBALS['TL_CONFIG']` access with `\Config::get()` (see #2)
+
 Version 1.1.1 (2017-06-28)
 --------------------------
 - Contao 4 ready
