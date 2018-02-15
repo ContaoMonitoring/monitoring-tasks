@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2014 Leo Feyer
+ * Copyright (C) 2005-2018 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,7 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2014
+ * @copyright  Cliff Parnitzky 2014-2018
  * @author     Cliff Parnitzky
  * @package    MonitoringTasks
  * @license    LGPL
@@ -241,7 +241,7 @@ $GLOBALS['TL_DCA']['tl_monitoring_task'] = array
  * Class tl_monitoring_task
  *
  * Provide miscellaneous methods that are used by the data configuration array.
- * @copyright  Cliff Parnitzky 2014
+ * @copyright  Cliff Parnitzky 2014-2018
  * @author     Cliff Parnitzky
  * @package    Controller
  */
@@ -265,7 +265,7 @@ class tl_monitoring_task extends Backend
 		$cssClass = strtolower($arrRow['status']);
 
 		$label = '
-<div class="tl_gray tl_small" style="margin-bottom: 5px;"><span class="tl_label">' . $GLOBALS['TL_LANG']['tl_monitoring_task']['creation_legend'] . ':</span>' . date($GLOBALS['TL_CONFIG']['datimFormat'], $arrRow['createdAt']) . ' (' . \UserModel::findByPk($arrRow['createdBy'])->name . ')&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span class="tl_label">' . $GLOBALS['TL_LANG']['tl_monitoring_task']['update_legend'] . ':</span>' . date($GLOBALS['TL_CONFIG']['datimFormat'], $arrRow['updatedAt']) . ' (' . \UserModel::findByPk($arrRow['updatedBy'])->name . ')</div>
+<div class="tl_gray tl_small" style="margin-bottom: 5px;"><span class="tl_label">' . $GLOBALS['TL_LANG']['tl_monitoring_task']['creation_legend'] . ':</span>' . date(\Config::get('datimFormat'), $arrRow['createdAt']) . ' (' . \UserModel::findByPk($arrRow['createdBy'])->name . ')&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span class="tl_label">' . $GLOBALS['TL_LANG']['tl_monitoring_task']['update_legend'] . ':</span>' . date(\Config::get('datimFormat'), $arrRow['updatedAt']) . ' (' . \UserModel::findByPk($arrRow['updatedBy'])->name . ')</div>
 
 <h2 class="tl_green">' . $arrRow['title'] . '</h2>
 
