@@ -2,6 +2,10 @@
 Contao Extension "MonitoringTasks"
 ==================================
 
+Version 1.1.3 (2018-02-16)
+--------------------------
+- ensured correct default values for `NOT NULL` database fields (see #3)
+
 Version 1.1.2 (2018-02-15)
 --------------------------
 - replaced `$GLOBALS['TL_CONFIG']` access with `\Config::get()` (see #2)
