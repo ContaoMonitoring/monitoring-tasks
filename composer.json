@@ -1,32 +1,38 @@
 {
-	"name":"contao-monitoring/monitoring-tasks",
-	"description":"Provides a simplified task management for the Contao Monitoring system.",
-	"keywords":["contao", "monitoring", "task", "tasks", "task management"],
-	"type":"contao-module",
-	"homepage":"https://github.com/ContaoMonitoring/monitoring-tasks",
-	"license":"LGPL-3.0+",
-	"authors":[
+	"name": "contao-monitoring/monitoring-tasks",
+	"description": "Provides a simplified task management for the Contao Monitoring system.",
+	"keywords": [
+		"contao",
+		"monitoring",
+		"task",
+		"tasks",
+		"task management"
+	],
+	"type": "contao-module",
+	"homepage": "https://github.com/ContaoMonitoring",
+	"license": "LGPL-3.0+",
+	"authors": [
 		{
-			"name":"Cliff Parnitzky",
-			"email":"contao@cliff-parnitzky.de",
-			"role":"Developer"
+			"name": "Cliff Parnitzky",
+			"email": "contao@cliff-parnitzky.de",
+			"role": "Developer"
 		}
 	],
-	"support":{
-		"email":"contao@cliff-parnitzky.de",
-		"issues":"https://github.com/ContaoMonitoring/monitoring-tasks/issues",
-		"source":"https://github.com/ContaoMonitoring/monitoring-tasks"
+	"support": {
+		"email": "contao@cliff-parnitzky.de",
+		"issues": "https://github.com/ContaoMonitoring/monitoring-tasks/issues",
+		"source": "https://github.com/ContaoMonitoring/monitoring-tasks"
 	},
-	"require":{
-		"php":">=5.3",
-		"contao/core-bundle":"~3.2 || ~4.4",
-		"contao-community-alliance/composer-plugin":"~2.4 || ~3.0",
-		"contao-monitoring/monitoring":"~1.8"
+	"require": {
+		"php": ">=7.4",
+		"contao/core-bundle": "~4.9",
+		"contao-community-alliance/composer-plugin": "~3.0",
+		"contao-monitoring/monitoring": "~1.8"
 	},
-	"extra":{
-		"contao":{
-			"sources":{
-				"system/modules/MonitoringTasks":"system/modules/MonitoringTasks"
+	"extra": {
+		"contao": {
+			"sources": {
+				"system/modules/MonitoringTasks": "system/modules/MonitoringTasks"
 			}
 		},
 		"branch-alias": {
